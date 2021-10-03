@@ -61,43 +61,43 @@ header-menu--links--hidden: false
 header-menu--links:
   - display-text: "Home"
     alt-text: "Visit the home page"
-    url: "/"
+    url: "https://www.civilservice.lgbt/"
     hidden: true
   - display-text: "News"
     alt-text: "Visit the News page"
-    url: "/news"
+    url: "https://www.civilservice.lgbt/news"
     hidden: false
   - display-text: "Events"
     alt-text: "Visit the Events page"
-    url: "/events"
+    url: "https://www.civilservice.lgbt/events"
     hidden: false
   - display-text: "Topics"
     alt-text: "Visit the Topics page"
-    url: "/topics"
+    url: "https://www.civilservice.lgbt/topics"
     hidden: false
   - display-text: "Publications"
     alt-text: "Visit the Publications page"
-    url: "/publications"
+    url: "https://www.civilservice.lgbt/publications"
     hidden: false
   - display-text: "Consultations"
     alt-text: "Visit the Consultations page"
-    url: "/consultations"
+    url: "https://www.civilservice.lgbt/consultations"
     hidden: false
   - display-text: "Networks"
     alt-text: "Visit the Networks page"
-    url: "/networks"
+    url: "https://www.civilservice.lgbt/networks"
     hidden: false
   - display-text: "Our team"
     alt-text: "See who we are"
-    url: "/team"
+    url: "https://www.civilservice.lgbt/team"
     hidden: false
   - display-text: "About"
     alt-text: "Learn more about us"
-    url: "/about"
+    url: "https://www.civilservice.lgbt/about"
     hidden: false
   - display-text: "Join us"
     alt-text: "Visit the membership registration page"
-    url: "/join-us"
+    url: "https://www.civilservice.lgbt/join-us"
     hidden: false
 
 ###################
@@ -109,33 +109,13 @@ footer--copyright-notice: "All content is released under the <a href='https://ww
 
 # Footer menu links
 footer-menu--links:
-  - display-text: "Become a member"
-    alt-text: "Join the Civil Service LGBT+ Network as a member"
-    url: "/join-us"
+  - display-text: "Design system"
+    alt-text: "Visit the design system"
+    url: "https://www.civilservice.lgbt/design-system"
     hidden: false
-  - display-text: "Update your profile"
-    alt-text: "Update your contact details and preferences"
-    url: "/update-profile"
-    hidden: false
-  - display-text: "Contact us"
-    alt-text: "Get our contact details"
-    url: "/about/contact-us"
-    hidden: false
-  - display-text: "About"
-    alt-text: "Learn more about us"
-    url: "/about"
-    hidden: true
-  - display-text: "Our team"
-    alt-text: "Find out about our team"
-    url: "/team"
-    hidden: false
-  - display-text: "Your data"
-    alt-text: "Read our data and privacy policy"
-    url: "/about/your-data"
-    hidden: false
-  - display-text: "Archived posts"
-    alt-text: "View archived news posts"
-    url: "/archives"
+  - display-text: "Volunteer manuals"
+    alt-text: "Read the volunteer manuals"
+    url: "https://www.civilservice.lgbt/manuals"
     hidden: false
 
 ###############
@@ -210,7 +190,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-
-
-# Date - 2021-07-23
