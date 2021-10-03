@@ -1,0 +1,77 @@
+---
+title: Notification banners
+excerpt: "Notification banners tell users about something that is not directly related to the page they are viewing."
+
+layout: collection--left-nav
+meta-info: false
+categories:
+- components
+---
+
+
+<p>The notification banner appears directly below the <a href="{% link _design-system/components/header.html %}">header</a> and is used for site-wide announcements.</p>
+
+<h2>When to use this component</h2>
+
+<p>A notification banner lets you tell the user about something that’s not directly relevant to the thing they’re trying to do on that page.</p>
+
+<h2>When not to use this component</h2>
+
+<p>Use notification banners sparingly. People often miss them, and using them too often is likely to make this problem worse.</p>
+
+<p>If the information is directly relevant to the thing the user is doing on that page, put the information in the main page content instead. Use <a href="{% link _design-system/components/inset-text.html %}">inset text</a> or <a href="{% link _design-system/components/warning-text.html %}">warning text</a> if it needs to stand out.</p>
+
+
+
+<details>
+    <summary>Formatted example</summary>
+
+    <div class="notification-banner" role="region" aria-labelledby="notification-banner--title">
+        <div class="width-container">
+        <p><span class="notification-banner--title">We're keeping Pride ON.</span> A summer of digital events and activities to celebrate Pride online.
+            <a href="#">View our events</a>.
+        </p>
+        <div class="width-container">
+    </div>
+
+</details>
+
+<details>
+    <summary>HTML code</summary>
+
+    <pre><code>&lt;div class="notification-banner" role="region" aria-labelledby="notification-banner--title"&gt;
+    &lt;p class="notifcation-banner--title" id="notification-banner--title"&gt;
+        We're keeping Pride ON.
+    &lt;/p&gt;
+    &lt;p class="notification-banner--content"&gt;
+        A summer of digital events and activities to celebrate Pride online.
+        &lt;a class="link--inverse" href="#"&gt;View our events&lt;/a&gt;.
+    &lt;/p&gt;
+&lt;/div&gt;</code></pre>
+</details>
+
+<h2>Setting the notification banner</h2>
+
+<p>To set a notification banner on the main website, you can edit the <code>notification-banners</code> file in the <code>_data</code> folder.</p>
+
+<p>You should set a:</p>
+<ul>
+    <li>title for the notification (<code>title</code>)</li>
+    <li>message for the notification (<code>text</code>)</li>
+    <li>title for the link (<code>link-title</code>)</li>
+    <li>link to go to (<code>url</code>)</li>
+    <li>start and end dates for the notification to show (<code>dates &gt start, end</code>)</li>
+</ul>
+
+<details>
+    <summary>Markdown</summary>
+
+    <pre><code>notification-banner:
+  - title: "This is a notification."
+    text: "This is the notification message."
+    link-title: "This is a link"
+    url: "https://www.civilservice.lgbt"
+    dates:
+    - start: 2020-12-31
+      end: 2022-12-31</code></pre>
+</details>
