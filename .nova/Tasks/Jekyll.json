@@ -10,7 +10,7 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "bundle exec jekyll serve"
+      "script" : "bundle exec jekyll serve -o --liveReload"
     }
   },
   "identifier" : "B488948F-B07C-4DCA-B901-E6F52D3B651D"
