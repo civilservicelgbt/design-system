@@ -15,7 +15,13 @@ categories:
 
 <p>Use the fieldset component when you need to show a relationship between multiple form inputs. </p>
 
-<h2>Fieldset with extra large legend</h2>
+<p>You can use the <code>legend-</code> class to adjust the size of the <code>&lt;legend&gt;</code>. Available sizes are:</p>
+<ul>
+	<li><code>legend-xl</code></li>
+	<li><code>legend-lg</code></li>
+	<li><code>legend-md</code></li>
+	<li><code>legend-sm</code></li>
+</ul>
 
 <details>
     <summary>Formatted example</summary>
@@ -32,81 +38,7 @@ categories:
     <summary>HTML code</summary>
 
     <pre><code>&lt;fieldset id="fieldset-group-name" aria-describedby="fieldset-group-title"&gt;
-    &lt;legend id="fieldset-group-title" class="legend-xl"&gt;
-        Fieldset legend
-    &lt;/legend&gt;
-    <em>&lt;!-- form fields go here --&gt;</em>
-&lt;/fieldset&gt;</code></pre>
-</details>
-
-<h2>Fieldset with large legend</h2>
-
-<details>
-    <summary>Formatted example</summary>
-
-    <fieldset id="fieldset-group-name" aria-describedby="fieldset-group-title">
-        <legend id="fieldset-group-title" class="legend-lg">
-            Fieldset legend
-        </legend>
-        <em>&lt;!-- form fields go here --&gt;</em>
-    </fieldset>
-</details>
-
-<h2>Field set with medium legend</h2>
-
-<p>If you do not add the <code>legend-*</code> class to the <code>&lt;legend&gt;</code> tag, it will default to medium size.</p>
-
-<details>
-    <summary>HTML code</summary>
-
-    <pre><code>&lt;fieldset id="fieldset-group-name" aria-describedby="fieldset-group-title"&gt;
-    &lt;legend id="fieldset-group-title" class="legend-md"&gt;
-    Fieldset legend
-    &lt;/legend&gt;
-    <em>&lt;!-- form fields go here --&gt;</em>
-&lt;/fieldset&gt;</code></pre>
-</details>
-
-<h2>Field set with small legend</h2>
-
-<details>
-    <summary>Formatted example</summary>
-
-    <fieldset id="fieldset-group-name" aria-describedby="fieldset-group-title">
-        <legend id="fieldset-group-title" class="legend-sm">
-            Fieldset legend
-        </legend>
-        <em>&lt;!-- form fields go here --&gt;</em>
-    </fieldset>
-</details>
-
-<details>
-    <summary>HTML code</summary>
-
-    <pre><code>&lt;fieldset id="fieldset-group-name" aria-describedby="fieldset-group-title"&gt;
-    &lt;legend id="fieldset-group-title" class="legend-xl"&gt;
-        Fieldset legend
-    &lt;/legend&gt;
-    <em>&lt;!-- form fields go here --&gt;</em>
-&lt;/fieldset&gt;</code></pre>
-</details>
-
-<details>
-    <summary>Formatted example</summary>
-
-    <fieldset id="fieldset-group-name" aria-describedby="fieldset-group-title">
-        <legend id="fieldset-group-title" class="legend-xl">
-            Fieldset legend
-        </legend>
-        <em>&lt;!-- form fields go here --&gt;</em>
-    </fieldset>
-</details>
-
-<details>
-    <summary>HTML code</summary>
-
-    <pre><code>&lt;fieldset id="fieldset-group-name" aria-describedby="fieldset-group-title"&gt;
-    &lt;legend id="fieldset-group-title" class="legend-xl"&gt;
+    &lt;legend id="fieldset-group-title" class="legend-lg"&gt;
         Fieldset legend
     &lt;/legend&gt;
     <em>&lt;!-- form fields go here --&gt;</em>
