@@ -160,7 +160,7 @@ collections:
         permalink: /:path/
         defaults:
             values:
-                layout: collection--left-nav
+                layout: design-system
 
 ##################
 # Build settings #

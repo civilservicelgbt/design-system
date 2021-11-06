@@ -2,10 +2,16 @@
 title: "Design system"
 excerpt: "Use the design system to make your website or digital service match with the Civil Service LGBT+ Network brand."
 
-layout: collection--left-nav
+layout: design-system
 loop: design-system
-breadcrumbs: false
 meta-info: false
+
+breadcrumbs-override: true
+breadcrumbs:
+- title: Home
+  url: "https://www.civilservice.lgbt/"
+- title: Tools
+  url: "https://www.civilservice.lgbt/tools/"
 
 permalink: /
 
